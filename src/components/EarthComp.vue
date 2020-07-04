@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Cesium from "Cesium"
+var Cesium = require('Cesium');
 
 var EarthComp = {
   data() {

@@ -7,7 +7,7 @@ module.exports = {
     };
     const cwp = new CopyWebpackPlugin([
       {
-        from: './node_modules/cesium/Build/CesiumUnminified', //调试时，将Cesium换成CesiumUnminified
+        from: './node_modules/cesium/Build/CesiumUnminified', //部署时，将CesiumUnminified换成Cesium
         to: 'js/Cesium',
         toType: 'dir'
       }
