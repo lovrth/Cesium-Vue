@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import Cesium from "Cesium"
+
 var EarthComp = {
   data() {
     return {
